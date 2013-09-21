@@ -1,0 +1,37 @@
+CHANGELOG
+
+v1.0 02/08/2013
+---------------
+- Reiniciando numeração, primeira versão pública
+- Refatoração de várias partes do código
+- Adição de suporte ao classificador SVM Light
+- Adição da funcionalidade de abrir arquivos recentemente abertos
+
+v3.1
+----
+- Refatoraçao de varias partes do codigo
+
+v3.0
+----
+- Integraçao do treinamento e prediçao dos modelos de aprendizado de maquina.
+- Janela de busca agora pode buscar a frente ou atras.
+
+v2.4 31/05/2012
+---------------
+- Janela de busca permanece aberta para permitir buscas repetidas mais
+  facilmente
+- Agora lembra o último diretório em que arquivos foram abertos ou salvos
+  (mas não é persistente)
+
+v2.3 28/05/2012
+---------------
+- Funcionalidades de duplo clique adicionadas
+  - Marcação de termo na sentença atual
+  - Inversão de relação
+- Clique com o botão do meio na lista de termos permite a seleção de mais de
+  um termo sem a necessidade de manter a tecla control pressionada
+
+v2.2 24/05/2012
+---------------
+- Implementaçao da comparaçao entre pacotes
+- Implementaçao da funçao de localizacao de termos
