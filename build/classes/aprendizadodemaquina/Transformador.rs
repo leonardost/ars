@@ -1,2 +1,0 @@
-aprendizadodemaquina.Transformador
-aprendizadodemaquina.Par
