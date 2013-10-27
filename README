@@ -30,7 +30,8 @@ artigo:
     TABA, L. S.; CASELI, H. M.; Uma ferramenta para anotação de relações
     semânticas entre termos. In: Anais do XI Encontro de Linguística de
     Corpus – ELC 2012. Instituto de Ciências Matemáticas e de Computação da
-    USP, São Carlos/SP, 2012
+    USP, São Carlos/SP, 2012.
+    http://nilc.icmc.usp.br/elc-ebralc2012/anais/completos/104005.pdf
 
 3. Licença
 ----------
@@ -43,8 +44,8 @@ sistema.
 A ARS contém as bibliotecas json-simple[1] para manipulação de objetos JSON
 e a biblioteca WEKA[2] para utilização do algoritmo de árvore de decisão J48.
 Pode-se acoplar também o software SVM Light[3] à ferramenta, mas este não vem
-incluso. Informações de como utilizar o SVM Light em conjunto com a ARS podem
-ser encontradas no manual.
+incluso. Informações sobre como utilizar o SVM Light em conjunto com a ARS
+podem ser encontradas no manual.
 
 [1] http://code.google.com/p/json-simple/
 [2] http://www.cs.waikato.ac.nz/ml/weka/
