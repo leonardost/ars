@@ -221,7 +221,7 @@ public class UtilidadesPacotes {
 
         JSONObject sentenca = new JSONObject();
         JSONArray tokens = new JSONArray();
-        
+
         sentenca.put( "id", contadorSentencas++ );
         sentenca.put( "texto", "" );
         sentenca.put( "comentarios", "" );
@@ -244,6 +244,8 @@ public class UtilidadesPacotes {
             bw.write( "===\n");
             
             while ( ( linha = br.readLine() ) != null ) {
+
+                //System.out.println( "DEBUG: " + linha );
                 
                 // Fim de uma sentença
                 if ( linha.equals( "</s>" ) ) {
@@ -284,6 +286,7 @@ public class UtilidadesPacotes {
                     // Apenas para tratar as sentenças que têm "secretaria" (e.g. 96524)
                     if ( linha.matches( "(.*\\t.*)\\t.*" ) ) {
                         matcher = Pattern.compile( "(.*\\t.*)\\t.*" ).matcher( linha );
+                        matcher.find();
                         linha = matcher.group( 1 );
                     }
                     
