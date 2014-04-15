@@ -57,7 +57,7 @@ public class ClassificadorSVM extends Classificador {
     // Para gerar números aleatórios na classificação
     private static Random rng = new Random();
 
-    public static String[] classes = { "", "is-a", "property-of", "part-of", "made-of", "effect-of", "used-for", "locaiton-of", "none" };
+    public static String[] classes = { "", "is-a", "property-of", "part-of", "made-of", "effect-of", "used-for", "location-of", "none" };
     
     /**
      * Carrega um conjunto de classificadores já treinados, contidos no arquivo
